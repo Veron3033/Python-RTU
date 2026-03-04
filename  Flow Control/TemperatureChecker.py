@@ -1,8 +1,9 @@
 print("Enter temperature:")
 temp = float(input())
 
-if float(input()) < 35:
+if temp < 35:
     print("a bit too cold")
-elif float(input()) == 35 or float(input()) == 37:
+elif 35 <= temp <= 37:
     print("you are all right")
-else:    print("possible fever")
+else:
+    print("possible fever")
