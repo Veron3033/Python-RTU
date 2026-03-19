@@ -1,3 +1,5 @@
+numbers = []
+
 while True:
     user_input = input("Enter a number or 'q' to quit: ")
     if user_input == 'q':
